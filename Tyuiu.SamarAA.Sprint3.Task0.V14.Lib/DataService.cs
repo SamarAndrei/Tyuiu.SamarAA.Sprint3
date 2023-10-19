@@ -10,7 +10,7 @@ namespace Tyuiu.SamarAA.Sprint3.Task0.V14.Lib
 {
     public class DataService : ISprint3Task0V14
     {
-        public double GetSumSeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double sumSeries = 1;
             for (int i = startValue; i <= stopValue; i++)

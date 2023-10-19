@@ -13,11 +13,11 @@ namespace Tyuiu.SamarAA.Sprint3.Task0.V14.Test
         {
             DataService ds = new DataService();
 
-            double value = 2;
+            int value = 2;
             int startValue = 1;
             int stopValue = 5;
 
-            double res = ds.GetSumSeries(value, startValue, stopValue);
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
             double wait = 14400;
 
             Assert.AreEqual(wait, res);

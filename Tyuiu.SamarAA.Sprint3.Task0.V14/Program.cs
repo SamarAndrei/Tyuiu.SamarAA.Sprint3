@@ -28,7 +28,7 @@ namespace Tyuiu.SamarAA.Sprint3.Task0.V14
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫ:                                                         *");
             Console.WriteLine("***************************************************************************");
 
-            double value = 2;
+            int value = 2;
             int startValue = 1;
             int stopValue = 5;
 
@@ -40,7 +40,7 @@ namespace Tyuiu.SamarAA.Sprint3.Task0.V14
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Произведение ряда = " + ds.GetSumSeries(value,startValue,stopValue));
+            Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(value,startValue,stopValue));
 
             Console.ReadKey();
 
